@@ -1,0 +1,37 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+    <title>About Tova</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="logo"></div>
+    <div class="navbar">
+        <a>HOME</a>
+        <a>ABOUT ME</a>
+        <a>WORK</a>
+        <a>CONTACT</a>
+    </div>
+    <section id="heroGrid">
+        <div id="about1">
+            <p>Tova Gold is a digital media artist and coder who specializes in 3D animation and UI design.</p>
+        </div>
+        <div id="aboutpic">
+            <img src="../portfolio-site/images/profilepic.jpg">
+        </div>
+        <div id="about2">
+            <p>She is based in Queens, NY and is really annoying.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footNav">
+            <img src="../portfolio-site/images/insta.png">
+            <img src="../portfolio-site/images/twitter.png">
+        </div>
+        <p>footer nav</p>
+    </footer>
+</body>
+
+<!--stuff to still figure out-->
+<!--header image sizing, padding for nav bar, footer p-->

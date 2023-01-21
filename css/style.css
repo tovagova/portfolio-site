@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'K2D';
+    src: url("../fonts/K2D-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Halant';
+    src: url("../fonts/Halant-Regular.ttf");
+}
+
+body {
+    background-color: #C3C3C3;
+}
+
+.navbar {
+    margin: auto;
+    background-color: #DA64E4;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    text-align: center;
+    padding: 20px;
+    justify-content: space-evenly;
+    font-size: 32px;
+    font-family: K2D;
+}
+
+.logo {
+    background-position: center;
+    background-image: url("../images/gold logo 1.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#heroGrid {
+    display: grid;
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-areas: "about1 selfie about2";
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+#heroGrid p {
+    font-size: 24px;
+    font-family: Halant;
+    padding: 30px;
+}
+
+#about1 {
+    grid-area: about1;
+}
+
+#about2 {
+    grid-area: about2;
+}
+
+#aboutpic img {
+    height: 250px;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #E8BC4B;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footNav img {
+    padding: 5px;
+}
+
+footer p {
+    font-family: K2D;
+    font-size: 20px;
+}
