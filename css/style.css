@@ -17,6 +17,7 @@ body {
     background-color: #DA64E4;
     text-align: center;
     justify-content: space-evenly;
+    height: 60px;
 }
 
 .navbar a {
@@ -85,7 +86,13 @@ footer {
 }
 
 .footNav img {
-    padding: 5px;
+    padding: 10px;
+    height: 50px;
+}
+
+.footNav a {
+    font-family: K2D;
+    font-size: 20px;
 }
 
 footer p {
