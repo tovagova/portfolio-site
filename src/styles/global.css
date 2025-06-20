@@ -1,0 +1,68 @@
+:root {
+    --logosize: 60px;
+    --herofont: Roboto;
+    --silverbg: #bbbbbb;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url("../../public/fonts/Figtree-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-header';
+    src: url("../../public/fonts/Roboto_Condensed-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../../public/fonts/Roboto-VariableFont_wdth\,wght.ttf");
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.basebody {
+    background-color: black;
+}
+
+.generic-container {
+    background-color: var(--silverbg);
+    border-radius: 20px;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.generic-container p {
+    font-family: var(--herofont);
+    font-size: 20px;
+}
+
+.generic-container h3 {
+    font-family: var(--herofont);
+    font-size: 30px;
+}
+
+.generic-container a {
+    font-family: var(--herofont);
+    font-size: 20px;
+}
+
+.generic-container ul {
+    list-style-position: inside;
+    list-style-type: square;
+}
