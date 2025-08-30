@@ -22,12 +22,12 @@
 
 @font-face {
     font-family: 'Roboto-header';
-    src: url("/public/Roboto_Condensed-Bold.ttf");
+    src: url("/Roboto_Condensed-Bold.ttf");
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url("/public/Roboto-VariableFont_wdth\,wght.ttf");
+    src: url("/Roboto-VariableFont_wdth\,wght.ttf");
 }
 
 canvas {
