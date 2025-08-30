@@ -17,17 +17,17 @@
 
 @font-face {
     font-family: 'Figtree';
-    src: url("../../public/Figtree-Regular.ttf");
+    src: url("/Figtree-Regular.ttf");
 }
 
 @font-face {
     font-family: 'Roboto-header';
-    src: url("../../public/Roboto_Condensed-Bold.ttf");
+    src: url("/public/Roboto_Condensed-Bold.ttf");
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url("../../public/Roboto-VariableFont_wdth\,wght.ttf");
+    src: url("/public/Roboto-VariableFont_wdth\,wght.ttf");
 }
 
 canvas {
