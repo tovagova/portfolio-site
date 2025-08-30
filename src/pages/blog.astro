@@ -17,7 +17,7 @@ const allPosts = Object.values(import.meta.glob('./posts/*.md', {eager: true}));
 	<body class="basebody">
 		<Header />
 		<section class="generic-container">
-			<p>This is my personal blog. I'll write about whatever I'm doing.</p>
+			<p>This is my personal blog.</p>
 			<br>
 			<ul>
 				{allPosts.map((post: any) => <li><a href={post.url}>{post.frontmatter.pubDate.toString().slice(0,10)} // {post.frontmatter.title}</a></li>)}

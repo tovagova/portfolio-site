@@ -1,0 +1,30 @@
+---
+import '../styles/global.css'
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+
+const pageTitle = "TTOOVVAA"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle}</title>
+	</head>
+
+	<body class="basebody">
+		<canvas id ='c' style="position: absolute; top: 0; left: 0; z-index: -1;"></canvas>
+		<Header />
+		<section class="generic-container">
+			<p>This is simply a test.</p>
+		</section>
+		<Hero />
+
+        <script>
+            import '../scripts/hextest2.js'
+        </script>
+	</body>
+
+</html>

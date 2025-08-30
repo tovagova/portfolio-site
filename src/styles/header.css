@@ -7,7 +7,7 @@
 }
 
 .header {
-    background-color: #bbbbbb;
+    background-color: var(--purp);
     height: 120px;
     max-width: 1000px;
     display: grid;

@@ -2,6 +2,9 @@
     --logosize: 60px;
     --herofont: Roboto;
     --silverbg: #bbbbbb;
+    --eggshell: #F5F5F5;
+    --purp: #ddd1e8;
+    --blackish: #1a1a1a;
 }
 
 *,
@@ -34,7 +37,7 @@ canvas {
 }
 
 .basebody {
-    background-color: black;
+    background-color: var(--blackish);
 }
 
 .generic-container {
